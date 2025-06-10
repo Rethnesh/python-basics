@@ -1,0 +1,18 @@
+a="A computer is an electronic machine that can store, process, and retrieve data according to instructions given"
+print(a)
+print(len(a))
+print(type(a))
+print(a[-5])
+print(a[:-1])
+print(a[-7:-1])
+print(a[-5:])
+print(a[7])
+print(a[4:10])
+print(a[21:])
+print(a[:9])
+for i in a:
+    print(i)
+print('an' in a)
+print("low" in a)
+print("a" not in a)
+print("should" not in a)

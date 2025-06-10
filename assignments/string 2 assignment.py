@@ -1,0 +1,10 @@
+x= "   A Central Processing Unit, often called the brain of a computer   "
+print(x)
+print(type(x))
+print(len(x))
+print(x.upper())
+print(x.lower())
+print(len(x.strip()))
+print(x.split("e"))
+print(x.replace("computer","system"))
+print(x.count("e"))

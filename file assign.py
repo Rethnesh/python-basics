@@ -1,0 +1,47 @@
+import os
+# z=open("filenew1.txt","x")
+# l=open("filenew2.txt","x")
+z=open("filenew1.txt","w")
+z.write("good morning")
+z.close()
+z=open("filenew1.txt","a")
+z.write("\nHave a nice day")
+z.close()
+z=open("filenew1.txt","r")
+p=z.read()
+print(p)
+z.close()
+z=open("filenew1.txt","r")
+print(z.readline())
+print(z.readline())
+z.close()
+
+l=open("filenew2.txt","w")
+z=open("filenew1.txt","r")
+l.write(z.read())
+l.close()
+z.close()
+
+l=open("filenew2.txt","r")
+print(l.read())
+l.close()
+
+# os.remove("sample1.txt")
+# os.rmdir("sample")
+
+# k=open("filenew3.txt","x")
+z=open('filenew1.txt',"r")
+l=open('filenew2.txt',"r")
+k=open("filenew3.txt","w")
+g=z.read()
+h=l.read()
+d=g+h
+k.write(d)
+z.close()
+l.close()
+k.close()
+k=open("filenew3.txt","r")
+print(k.read)
+k.close()
+
+

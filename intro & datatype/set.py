@@ -1,0 +1,48 @@
+x={"cherry","apple","orange","mango","berry","apple"}
+print(x)
+print(len(x))
+print(type(x))
+for i in x:
+    print(i)
+print("apple" in x)
+print("orange" not in x)
+print("avocado" in x)
+print("avocado" not in x)
+x.add("avocado")
+print(x)
+y={"jackfruit","quava"}
+x.update(y)
+print(x)
+z={"apple","quava","mango","blueberry"}
+l=x.union(z)
+print(l)
+k=x.intersection(z)
+print(k)
+j=x.difference(z)
+print(j)
+h=x.symmetric_difference(z)
+print(h)
+x.intersection_update(z)
+print(x)
+x.difference_update(z)
+print(x)
+x.update(y,z)
+print(x)
+x.symmetric_difference_update(y)
+print(x)
+x.remove("mango")
+print(x)
+x.discard("mango")
+print(x)
+x.pop()
+print(x)
+x.clear()
+print(x)
+del x 
+
+p=["apple","berry","cherry"]
+print(p)
+p[1]="quava"
+print(p)
+m=frozenset(p)
+print(m)
