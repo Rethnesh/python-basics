@@ -43,5 +43,8 @@ obj.difference()
 class new:
     pass
 
+class modifiedingit:
+    pass
+
 
 
