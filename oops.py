@@ -40,5 +40,8 @@ class name(age):
 obj=name(12,45)
 obj.difference()
 
+class new:
+    pass
+
 
 
